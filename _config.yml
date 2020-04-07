@@ -1,9 +1,9 @@
 menu:
     Blog: /
-    Archive: archives/
+    Archive: /archives/
     Weibo: http://weibo.com/achjqz
     GitHub: https://github.com/achjqz
-    Rss: atom.xml
+    Rss: /atom.xml
 
 favicon: favicon.png
 logo: favicon.png

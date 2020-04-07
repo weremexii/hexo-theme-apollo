@@ -1,6 +1,6 @@
 ::selection {
     color: #FFFFFF;
-    background-color: #42b983;
+    background-color: #5454f8;
 }
 
 html, body {
@@ -11,11 +11,10 @@ html, body {
 body {
     margin: 0;
     color: #34495e;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.6;
     background-color: #fff;
-    font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif;
-}
+    font-family: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 
 ul.nav,
 ul.post-list {
@@ -36,7 +35,7 @@ a, a:active {
 a.nav-list-link.active,
 a.nav-list-link:hover,
 a.post-title-link:hover {
-    border-bottom: 2px solid #42b983;
+    border-bottom: 2px solid #5454f8;
 }
 
 hr {
