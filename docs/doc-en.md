@@ -6,8 +6,8 @@
 hexo init Blog 
 cd Blog 
 npm install
-npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+git clone https://github.com/achjqz/hexo-theme-apollo.git themes/apollo
 ```
 
 ## Enable
@@ -69,10 +69,10 @@ If you want to show excerpt(core content of article) to your visitors, do add HT
 
 ## Comment Plugin
 
-Hexo-theme-apollo support two comment plugins: Disqus and Duoshuo. please set like this in your `themes/apollo/_config.yml`:
+Hexo-theme-apollo supports comment plugins for Disqus. please set like this in your `themes/apollo/_config.yml`:
 
 ```yaml
-disqus: seansun
+disqus: achjqz
 ```
 
 ## Danger Block

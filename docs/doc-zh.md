@@ -33,10 +33,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam sae
 
 ## 评论插件
 
-Hexo-theme-apollo 支持两种评论插件：Disqus 和 Duoshuo. 请在 `themes/apollo/_config.yml` 文件中做如下配置:
+Hexo-theme-apollo 支持Disqus评论插件. 请在 `themes/apollo/_config.yml` 文件中做如下配置:
 
 ```yaml
-disqus: seansun
+disqus: achjqz
 ```
 
 ## 警告块

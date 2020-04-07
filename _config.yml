@@ -1,21 +1,20 @@
 menu:
     Blog: /
-    Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    Archive: archives/
+    Weibo: http://weibo.com/achjqz
+    GitHub: https://github.com/achjqz
+    Rss: atom.xml
 
-favicon: /favicon.png
-logo: /favicon.png
+favicon: favicon.png
+logo: favicon.png
 
 # Comment
-# e.g disqus: seansun
+# e.g disqus: achjqz
 disqus:
-duoshuo:
 
 # Analytics
 # google-analytics:
 # ga: UA-xxxxxxxx-x
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2020
