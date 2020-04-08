@@ -29,14 +29,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam sae
 
 如果你想创建文章摘要用于向读者展示文章的核心内容，那么需要在文章摘要之后其他内容之前添加 HTML 注释标签 `<!--more-->`，使用方法如下图所示：
 
-![https://cloud.githubusercontent.com/assets/9530963/14064341/0fa3c754-f432-11e5-8ad7-5d063d4a0886.png](https://cloud.githubusercontent.com/assets/9530963/14064341/0fa3c754-f432-11e5-8ad7-5d063d4a0886.png)
+![more](https://cloud.githubusercontent.com/assets/9530963/14064341/0fa3c754-f432-11e5-8ad7-5d063d4a0886.png)
 
 ## 评论插件
 
 Hexo-theme-apollo 支持Disqus评论插件. 请在 `themes/apollo/_config.yml` 文件中做如下配置:
 
 ```yaml
-disqus: achjqz
+disqus: disqus_shortname
 ```
 
 ## 警告块

@@ -1,4 +1,6 @@
-![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
+![hexo-theme-apollo](https://pic.rmb.bdstatic.com/af5790651695edd53f917eb9c3b7708f.png)
+
+本项目基于apollo主题修改, 新增支持`tag`显示, `category`页面  
 
 ## 文档
 
@@ -37,6 +39,17 @@ archive_generator:
 ``` bash
 cd themes/apollo 
 git pull
+```
+
+## 开发
+
+``` bash
+git clone https://github.com/achjqz/hexo-theme-apollo.git apollo
+cd apollo
+npm install
+npm install --global gulp-cli
+# 构建css
+gulp
 ```
 
 ## License

@@ -1,4 +1,4 @@
-![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
+![hexo-theme-apollo](https://pic.rmb.bdstatic.com/af5790651695edd53f917eb9c3b7708f.png)
 
 ## Install
 
@@ -72,7 +72,7 @@ If you want to show excerpt(core content of article) to your visitors, do add HT
 Hexo-theme-apollo supports comment plugins for Disqus. please set like this in your `themes/apollo/_config.yml`:
 
 ```yaml
-disqus: achjqz
+disqus: disqus_shortname
 ```
 
 ## Danger Block
