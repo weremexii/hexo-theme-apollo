@@ -1,0 +1,25 @@
+.tag-title {
+    font-size: 1em;
+    color: #5454f8;
+    padding-left: 10px
+}
+
+.category {
+    max-width: 500px;
+    margin: 5em auto;
+}
+
+.category-list-count {
+    padding-left: 3px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #999;
+}
+
+.category-list-count:before {
+    content: "(";
+}
+
+.category-list-count:after {
+    content: ")";
+}

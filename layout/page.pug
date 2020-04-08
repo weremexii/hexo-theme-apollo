@@ -1,8 +1,10 @@
 extends partial/layout
 
 block container
-    h4 分类
-    != list_categories()
+    .category  
+        h2.title 
+            != page.title
+        != list_categories()
 
 block pagination
     include mixins/paginator
