@@ -69,10 +69,18 @@ If you want to show excerpt(core content of article) to your visitors, do add HT
 
 ## Comment Plugin
 
-Hexo-theme-apollo supports comment plugins for Disqus. please set like this in your `themes/apollo/_config.yml`:
+Hexo-theme-apollo supports comment plugins for Disqus and Gitalk. please set like this in your `themes/apollo/_config.yml`:
 
 ```yaml
 disqus: disqus_shortname
+
+gitalk:
+  on: true
+  owner: your github username
+  repo: your repository
+  admin: ['your github username']
+  clientID: your clientId
+  clientSecret: your clientSecret
 ```
 
 ## Danger Block

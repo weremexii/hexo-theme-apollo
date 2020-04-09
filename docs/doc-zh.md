@@ -33,10 +33,18 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam sae
 
 ## 评论插件
 
-Hexo-theme-apollo 支持Disqus评论插件. 请在 `themes/apollo/_config.yml` 文件中做如下配置:
+Hexo-theme-apollo 支持Disqus和Gitalk评论插件. 请在 `themes/apollo/_config.yml` 文件中做如下配置:
 
 ```yaml
 disqus: disqus_shortname
+
+gitalk:
+  on: true
+  owner: 你的github账户名
+  repo: 你要作为评论系统的repo
+  admin: ['github用户名']
+  clientID: 你的clientId
+  clientSecret: 你的clientSecret
 ```
 
 ## 警告块

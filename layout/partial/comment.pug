@@ -1,3 +1,17 @@
+if theme.gitalk.on
+    link(rel="stylesheet",href="https://unpkg.com/gitalk/dist/gitalk.css") 
+    script(src="https://unpkg.com/gitalk/dist/gitalk.min.js ")
+    #gitalk-container
+    script. 
+        const gitalk = new Gitalk({
+            clientID: '#{theme.gitalk.clientID}',     
+            clientSecret: '#{theme.gitalk.clientSecret}',     
+            id: window.location.pathname,    
+            repo: '#{theme.gitalk.repo}',     
+            owner: '#{theme.gitalk.owner}',     
+            admin: '#{theme.gitalk.admin}',     
+        })   
+        gitalk.render('gitalk-container')
 
 if theme.disqus
     #disqus_thread

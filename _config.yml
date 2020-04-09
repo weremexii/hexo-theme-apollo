@@ -12,6 +12,14 @@ logo: favicon.png
 # e.g disqus: achjqz
 disqus:
 
+gitalk:
+    on: false
+    clientID: 
+    clientSecret: 
+    owner:
+    admin:
+    repo:       
+
 # Analytics
 # ga: UA-xxxxxxxx-x
 
