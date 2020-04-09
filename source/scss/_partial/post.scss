@@ -47,11 +47,11 @@
     }
 
     h2, h3 {
-        font-size: 22px;
+        font-size: 1.3em;
     }
 
     h4, h5, h6 {
-        font-size: 18px;
+        font-size: 1.1em;
     }
     a {
         color: #5454f8;
@@ -170,7 +170,8 @@ pre {
     }
 }
 
-$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts");
+$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts", 
+"yml");
 @include code-signs($signs);
 
 .highlight.cpp .code:after {
