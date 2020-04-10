@@ -4,10 +4,11 @@ menu:
     Category: /categories/
     GitHub: https://github.com/achjqz
     Rss: /atom.xml
+    Friends: /link
 
 favicon: favicon.png
 logo: favicon.png
-
+avatar: favicon.png
 # Comment
 # e.g disqus: achjqz
 disqus:
