@@ -1,11 +1,11 @@
-![hexo-theme-apollo](https://pic.rmb.bdstatic.com/af5790651695edd53f917eb9c3b7708f.png)
-
 本项目基于apollo主题修改, 新增以下功能
 
 1. 支持`tag`显示
 2. 增加`category`页面  
 3. 增加`gitalk`支持
+4. 增加友链页面
 
+![hexo-theme-apollo](https://pic.rmb.bdstatic.com/14a2b512b64854be45f03ebbf100b6cf.png)
 ## 文档
 
 - [中文文档](https://github.com/achjqz/hexo-theme-apollo/blob/master/docs/doc-zh.md)

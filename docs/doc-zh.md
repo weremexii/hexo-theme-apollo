@@ -47,6 +47,60 @@ gitalk:
   clientSecret: 你的clientSecret
 ```
 
+## 分类页面
+
+需用hexo命令生成
+
+```bash
+hexo new page categories
+```
+
+修改title和type
+
+```md
+---
+title: 分类
+date: 2020-04-08 00:16:38
+type: category
+---
+```
+
+## 友链页面
+
+hexo命令生成友链页面
+
+```bash
+hexo new page link
+```
+
+修改type
+
+```md
+---
+title: link
+date: 2020-04-10 21:13:44
+type: link
+---
+```
+
+在Hexo博客目录中的source/_data，创建一个文件link.yml
+
+```yml
+class:
+  class_name: 友情链接
+  link_list:
+    1:
+      name: xxx
+      link: https://blog.xxx.com
+      avatar: https://cdn.xxxxx.top/avatar.png
+      descr: xxxxxxx
+    2:
+      name: xxxxxx
+      link: https://www.xxxxxxcn/
+      avatar: https://xxxxx/avatar.png
+      descr: xxxxxxx  
+```
+
 ## 警告块
 
 使用警告块需要 `div` 标签和 `tip` 类名：
