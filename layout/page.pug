@@ -6,7 +6,7 @@ block container
           h2.title 
               != page.title
           != list_categories()
-    else if page.type === 'link'
+    else if page.type === 'friends'
       .flink
         if site.data.link
           each i in site.data.link
