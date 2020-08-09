@@ -1,3 +1,5 @@
+# apollo主题配置
+
 ## Meta Description
 
 如果你想设置页面的 meta description 信息，请在每篇 markdown 文件的头部添加 `desc` 字段信息——更实用的方式是在 scaffolds 文件夹中，将 `desc` 配置到常用模板中去，示例如下：
@@ -33,7 +35,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, non numquam sae
 
 ## 评论插件
 
-Hexo-theme-apollo 支持Disqus和Gitalk评论插件. 请在 `themes/apollo/_config.yml` 文件中做如下配置:
+Hexo-theme-apollo 支持Disqus和Gitalk评论插件. 请在 `_config.apollo.yml` 文件中做如下配置:
 
 ```yaml
 disqus: disqus_shortname

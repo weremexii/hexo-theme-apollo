@@ -171,11 +171,17 @@ pre {
 }
 
 $signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts", 
-"yml");
+"yml", "yaml", "obj-c", "sql");
 @include code-signs($signs);
 
 .highlight.cpp .code:after {
     content: 'C++';
+    @extend %code-base;
+}
+
+.highlight.x86asm .code:after {
+    content: 'ASM';
+    @extend %code-base;
 }
 
 pre {

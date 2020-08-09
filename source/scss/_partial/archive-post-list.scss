@@ -1,5 +1,5 @@
 .archive {
-    max-width: 500px;
+    max-width: 600px;
     margin: 5em auto;
     .post-item {
         padding: 2px 0 0 50px;
@@ -8,11 +8,12 @@
     .post-title-link {
         display: block;
         margin-left: 125px;
-        color: #5454f8;
+        color: #2e405b;
+        font-family: Roboto Mono;
         word-break: break-all;
         &:hover {
             border-bottom: 0;
-            color: #267B54;
+            color: #5454f8;
         }
     }
     .post-info {

@@ -1,13 +1,11 @@
+# hexo theme apoll0
+
 ![hexo-theme-apollo](https://pic.rmb.bdstatic.com/af5790651695edd53f917eb9c3b7708f.png)
 
 ## Install
 
 ``` bash
-hexo init Blog 
-cd Blog 
-npm install
-npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-git clone https://github.com/achjqz/hexo-theme-apollo.git themes/apollo
+npm i hexo-theme-apollo
 ```
 
 ## Enable
@@ -28,8 +26,7 @@ archive_generator:
 ## Update
 
 ``` bash
-cd themes/apollo 
-git pull
+npm i hexo-theme-apollo@latest
 ```
 
 ## Meta Description
@@ -51,7 +48,7 @@ result:
 <meta name="description" content="Lorem ipsum dolor sit amet, consectetur.">
 ```
 
-If there is no `desc` property or value, hexo-theme-apollo will use `page.title` and `page.author` instead of it. 
+If there is no `desc` property or value, hexo-theme-apollo will use `page.title` and `page.author` instead of it.
 
 ## H1~H6 Title
 
@@ -69,7 +66,7 @@ If you want to show excerpt(core content of article) to your visitors, do add HT
 
 ## Comment Plugin
 
-Hexo-theme-apollo supports comment plugins for Disqus and Gitalk. please set like this in your `themes/apollo/_config.yml`:
+Hexo-theme-apollo supports comment plugins for Disqus and Gitalk. please set like this in your ``_config.apollo.yml`:
 
 ```yaml
 disqus: disqus_shortname
