@@ -15,7 +15,10 @@
     "theme",
     "apollo"
   ],
-  "author": "Sean Sun",
+  "author": {
+    "name": "xhyh",
+    "email": "achjqz@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/achjqz/hexo-theme-apollo/issues"
@@ -24,6 +27,6 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.1.0"
   }
 }
