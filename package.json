@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-apollo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A hexo theme inspired by vuejs.org",
   "main": "index.js",
   "scripts": {
