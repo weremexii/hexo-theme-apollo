@@ -1,6 +1,9 @@
 mixin postInfo(item)
     .post-info
-        != full_date(item.date, 'll')
+        if is_home()
+            != 'Created: ' + full_date(item.date, 'll')
+        if is_post()
+            != 'Last modified: ' + full_date(item.updated, 'll')
         if (item.tags && (is_home() || is_post())) 
             for tag in item.tags.toArray()
                 a.tag-title(href=url_for(tag.path))
