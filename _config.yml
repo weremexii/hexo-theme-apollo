@@ -1,9 +1,11 @@
 menu:
     Blog: /
     Archive: /archives/
-    Telegram: http://t.me/mexii
-    GitHub: https://github.com/weremexii
+    Category: /category/
+    Frineds: /link/
+    GitHub: 
     Rss: /atom.xml
+    
 
 favicon: favicon.png
 logo: favicon.png
@@ -21,7 +23,7 @@ gitalk:
     repo:       
 
 # Analytics
-# ga: UA-xxxxxxxx-x
+# ga: 
 
 # Copyright Infomation
 startyear: 2020
